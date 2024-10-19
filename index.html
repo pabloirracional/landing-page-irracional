@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Irracional Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="home-page">
+      <div class="container">
+        <div id="main-header-div">
+          <header id="main-header">
+            <h1>Seja Irracional, seja você!</h1>
+            <p>
+              Bem-vindo à Irracional Store, o lugar onde o bizarro faz total
+              sentido! Navegue pelos produtos mais absurdos e criativos, e
+              prepare-se para uma experiência de compra totalmente diferente.
+            </p>
+            <a href="#gallery-page">
+              <button class="home-btn">Explorar Produtos</button>
+            </a>
+          </header>
+
+          <img
+            src="images/shishiba_hands_on_neck.jpg"
+            alt="personagem com a mão no pescoço"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery-page">
+      <div class="container">
+        <header id="header-products">
+          <h2>Melhores Produtos</h2>
+          <p>Confira os produtos mais vendidos!</p>
+        </header>
+        <div class="gallery">
+          <div class="product-card">
+            <img src="images/produto1.png" alt="Talheres" />
+            <h3>Talheres</h3>
+            <p>
+              Talheres Inquebráveis: da sopa à batalha, com uma espada no kit
+              para cortar até a fome mais feroz!
+            </p>
+            <p class="price">R$ 299</p>
+          </div>
+          <div class="product-card">
+            <img src="images/produto2.png" alt="Caramelo Deluxe" />
+            <h3>Caramelo Deluxe</h3>
+            <p>
+              O único cachorro que, além de latir, corta qualquer problema pela
+              raiz... com uma katana!
+            </p>
+            <p class="price">R$ 299</p>
+          </div>
+          <div class="product-card">
+            <img src="images/produto3.png" alt="Ar-condicionado" />
+            <h3>Ar-condicionado</h3>
+            <p>
+              Ar-condicionado Supremo: tão poderoso que até o deserto pediria
+              uma coberta. Clima sempre no ponto certo, não importa o calor!
+            </p>
+            <p class="price">R$ 299</p>
+          </div>
+        </div>
+
+        <p class="cta">
+          Interessado em nossos produtos? Saiba mais abaixo ou nos envie uma
+          <a href="#contact-page">mensagem</a>.
+        </p>
+      </div>
+    </section>
+
+    <section id="reviews-section">
+      <div class="container">
+        <header id="header-reviews">
+          <h2>Avaliações</h2>
+          <p>Veja o que nossos clientes têm a dizer!</p>
+        </header>
+        <div class="gallery-reviews">
+          <div class="card">
+            <img src="images/fulano.png" alt="avaliação cliente 1" />
+            <h3>Fulano</h3>
+            <p>⭐⭐⭐⭐</p>
+            <p>
+              Os talheres são realmente inquebráveis, já testei em várias
+              refeições pesadas. A espada no kit é um toque divertido, mas o
+              preço poderia ser um pouquinho mais acessível.
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/sicrano.png" alt="avaliação cliente 2" />
+            <h3>Sicrano</h3>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>
+              Nunca pensei que um cachorro caramelo com uma katana fosse cortar
+              meus problemas pela raiz... mas aqui estamos! Produto 10/10!
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/beltrano.png" alt="avaliação cliente 3" />
+            <h3>Beltrano</h3>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>
+              O ar-condicionado é simplesmente o melhor que já tive. Ele resfria
+              o ambiente em minutos e ainda tenho que me cobrir à noite no
+              verão! Sensacional!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-page">
+      <header id="small-header">
+        <h2>Entre em contato</h2>
+      </header>
+
+      <div class="container-small">
+        <form action="" method="post">
+          <div>
+            <label for="contact-name">Nome</label>
+            <input type="text" name="contact-name" id="contact-name" />
+          </div>
+          <div>
+            <label for="contact-email">Email</label>
+            <input type="email" name="contact-email" id="contact-email" />
+          </div>
+          <div>
+            <label for="contact-message">Mensagem</label>
+            <textarea
+              name="contact-message"
+              id="contact-message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div id="send-message">
+            <button class="btn">Enviar Mensagem</button>
+            <p class="muted">
+              <em>Todos os campos precisam ser preenchidos.</em>
+            </p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy Irracional Store 2024. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
