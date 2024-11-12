@@ -29,7 +29,7 @@ Esta declaração informa ao navegador que o documento está usando HTML5, que �
 
 Explicando HTML5 e HTML semântico - 
 
-A versão que estamos usando é o HTML5, que trouxe uma parada chamada HTML semântico. Em vez de usar só divs pra tudo, agora temos tags como <header>, <section>, <footer>, que deixam o código mais legível e organizado. Tipo separar a pizza por sabor!
+A versão que estamos usando é o HTML5, que trouxe uma parada chamada HTML semântico. Em vez de usar só divs pra tudo, agora temos tags como 'header', 'section', 'footer', que deixam o código mais legível e organizado. Tipo separar a pizza por sabor!
 
 ### `<html>`
 Esta é a tag raiz que envolve todo o conteúdo da página HTML. Tudo que estiver dentro dessa tag será parte da estrutura do documento HTML.
